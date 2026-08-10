@@ -6,20 +6,20 @@ from pathlib import Path
 from mcp.server.fastmcp import FastMCP
 
 try:
-    from shesha_audit.mcp_guard import GuardedMCP as _MCP
+    from shesh_audit.mcp_guard import GuardedMCP as _MCP
 except ImportError:
     _MCP = FastMCP
 
 from . import parser
 
-mcp = _MCP("shesha-calendar")
+mcp = _MCP("shesh-calendar")
 
 DEFAULT_DIR = Path.home() / ".local" / "share" / "shesha" / "calendar"
 
 
 def _dir() -> Path:
     import os
-    return Path(os.environ.get("SHESHA_CALENDAR_DIR", DEFAULT_DIR))
+    return Path(os.environ.get("SHESH_CALENDAR_DIR", DEFAULT_DIR))
 
 
 @mcp.tool()

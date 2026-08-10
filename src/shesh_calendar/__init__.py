@@ -1,4 +1,4 @@
-"""Local-first calendar/event tools for Shesha.
+"""Local-first calendar/event tools for Shesh.
 
 Reads iCalendar (.ics) files from a vdir (as used by vdirsyncer/khal) and
 exposes upcoming events. It does NOT talk to network calendars directly —

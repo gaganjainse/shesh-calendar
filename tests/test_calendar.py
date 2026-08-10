@@ -6,7 +6,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "src"))
 
-from shesha_calendar import parser  # noqa: E402
+from shesh_calendar import parser  # noqa: E402
 
 ICS = """BEGIN:VCALENDAR
 BEGIN:VEVENT
