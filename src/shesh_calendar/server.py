@@ -3,12 +3,7 @@ from __future__ import annotations
 
 from pathlib import Path
 
-from fastmcp import FastMCP
-
-try:
-    from shesh_audit.mcp_guard import GuardedMCP as _MCP
-except ImportError:
-    _MCP = FastMCP
+from shesh_audit.mcp_guard import GuardedMCP as _MCP
 
 from . import parser
 
