@@ -14,7 +14,7 @@ from . import parser
 
 mcp = _MCP("shesh-calendar")
 
-DEFAULT_DIR = Path.home() / ".local" / "share" / "shesha" / "calendar"
+DEFAULT_DIR = Path.home() / ".local" / "share" / "shesh" / "calendar"
 
 
 def _dir() -> Path:
