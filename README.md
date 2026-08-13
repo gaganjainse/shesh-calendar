@@ -1,3 +1,5 @@
+> ⚠️ **Consolidated into [shesh-core](https://github.com/gaganjainse/shesh-core)** — this module now lives in the shesh-core monorepo (same package name, same console script). Archived 2026-08-13.
+
 # 📅 shesh-calendar
 
 Local-first calendar/agenda over an iCalendar **vdir** (as used by
