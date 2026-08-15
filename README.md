@@ -1,6 +1,6 @@
-> ⚠️ **Consolidated into [shesh-core](https://github.com/gaganjainse/shesh-core)** — this module now lives in the shesh-core monorepo (same package name, same console script). Archived 2026-08-13.
+>  **Consolidated into [shesh-core](https://github.com/gaganjainse/shesh-core)** — this module now lives in the shesh-core monorepo (same package name, same console script). Archived 2026-08-13.
 
-# 📅 shesh-calendar
+# shesh-calendar
 
 Local-first calendar/agenda over an iCalendar **vdir** (as used by
 vdirsyncer/khal). Reads upcoming events, searches, lists calendars — no
@@ -15,9 +15,11 @@ sync, all mail local, secrets via shesh-secrets env, never written to disk).
 - Part of: [Shesh ecosystem](https://github.com/gaganjainse/shesh-ecosystem)
 
 ## MCP tools
+
 `upcoming_events`, `search_calendar`, `list_calendars`, `calendar_status`
 
 ## Develop
+
 ```bash
 uv run pytest -q
 uv run ruff check .
